@@ -1,0 +1,116 @@
+/* montserrat-alternates-regular - cyrillic_cyrillic-ext_latin */
+
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/montserrat-v26-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v26-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* html {
+box-sizing: border-box;
+}
+*, *::before, *::after{
+box-sizing: inherit;
+} */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f8f8ff;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 235px;
+    background-color: #f8f8ff;
+}
+
+nav .logo-img{
+    width: 235px;
+    height: 70px;
+}
+
+nav .logo-img img{
+    width: 230px;
+} 
+
+nav .menu-items{
+    background-color: #f8f8ff;
+    margin-top: 30px;
+    height: calc(100% - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.menu-items li{
+    list-style: none;
+    margin-left: 10px;
+}
+.menu-items li a{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: white;
+    width: 175px;
+    border-radius: 14px;
+    margin-top: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.menu-items li a i{
+    min-width: 25px;
+    height: 100%;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.nav-links {
+    background-color: white;
+    width: 215px;
+    height: 225px;
+    margin-left: 5px;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+.exchange{
+    background-color: white;
+    width: 215px;
+    height: 140px;
+    margin-left: 5px;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
